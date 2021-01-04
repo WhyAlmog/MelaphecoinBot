@@ -244,7 +244,6 @@ public class Database extends Thread {
 	
 	if (getDebtSize(memberId) > 0)
 	    payToDebt(memberId, (int) (amount * DEBT_TAX));
-
     }
 
     /**
