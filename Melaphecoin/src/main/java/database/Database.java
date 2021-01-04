@@ -24,9 +24,9 @@ public class Database extends Thread {
 
     // TODO save backups
 
-    private static final String BALANCE_FILE = "./data/balance.txt";
-    private static final String DAILY_SPIN_FILE = "./data/daily spin.txt";
-    private static final String DEBTS_FILE = "./data/debts.txt";
+    private static final String BALANCE_FILE = "C:\\Users\\almog\\git\\repository\\Melaphecoin\\Melaphecoin\\data\\balances.txt";
+    private static final String DAILY_SPIN_FILE = "C:\\Users\\almog\\git\\repository\\Melaphecoin\\Melaphecoin\\data\\daily spin.txt";
+    private static final String DEBTS_FILE = "C:\\Users\\almog\\git\\repository\\Melaphecoin\\Melaphecoin\\data\\debt.txt";
     private static final long BACKUP_CYCLE_TIME = 10 * 60000; // 10 minutes
 
     private static final float DEBT_TAX = 0.1f;
