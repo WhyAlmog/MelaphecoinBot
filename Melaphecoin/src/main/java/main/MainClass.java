@@ -32,7 +32,7 @@ import net.dv8tion.jda.api.requests.GatewayIntent;
 import passiveTasks.CountingToManager;
 
 /**
- * class containing the main method, also contains helper function and variables
+ * class containing the main method, also contains helper function and variables.
  */
 public class MainClass {
 
